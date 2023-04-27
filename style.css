@@ -1,0 +1,52 @@
+:root{
+    --cor-de-fundo: #9BA4B5;
+    --cor-de-alerta: red;
+    --fonte-principal:'Courier Prime', monospace;
+          
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;    
+}
+h1{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.mensagem{
+    font-size: 1rem;
+    visibility: hidden;
+    
+}
+.mensagem-validacao{
+    visibility: hidden;
+    color: var(--cor-de-alerta);
+}
+.box{
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 3rem;
+    border: solid 2px black;
+    padding: 1rem 2rem;
+}
+#btn-restart{
+    margin-top: 1rem;
+    color: #000000;
+    background-color: #7a7a7a;
+    font-size: 19px;
+    border: 0px solid;
+    border-radius: 15px;
+    padding: 15px 50px;
+    cursor: pointer
+}
+#btn-restart:hover {
+    color: #000000;
+    background-color: #a09e9e;
+}
